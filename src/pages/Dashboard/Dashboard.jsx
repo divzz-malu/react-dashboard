@@ -5,7 +5,6 @@ import Paper from "@mui/material/Paper";
 import ProductSummary from "./Components/ProductSummary";
 import NetProfitSummary from "./Components/NetProfitSummary";
 import ActivityReport from "./Components/ActivityReport";
-import BarChart from "../../components/Chart/Chart";
 import Categories from "./Components/CategoriesAndGoals";
 import OrderTable from "./Components/OrderTable";
 import FeedbackSection from "./Components/FeedbackSection";
@@ -17,9 +16,8 @@ const Item = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
     height:"100%",
     maxHeight:"325px",
-    overflow:"auto"
-    // height:"100%"
-    // maxWidth:"200px",
+    overflow:"auto",
+    minHeight:"155px"
 }));
 
 function Dashboard() {

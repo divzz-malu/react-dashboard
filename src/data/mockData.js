@@ -218,29 +218,29 @@ export const categories =[
 export const feedbacks = [
     {
         id: 1,
-        img:"../../assets/male-01.jpg",
+        img:KristinWatson,
         name: "Jenny Wilson",
         rating: 4,
         comment:"Service of your hotel was awesome we enjoyed your food 😊.... It was feeling that we are eating in our home ... Just loved your taste of food ❤️May u see more success in future ... Thank u"
     },
     {
         id: 2,
-        img:"",
+        img:JaneCooper,
         name: "Dianne Russel",
         rating: 5,
         comment:"Very nice experience.Nice ambience with nice food "
     },
     {
         id: 3,
-        img:"",
-        name: "Jenny Wilson",
+        img:WadeWarren,
+        name: "Devon Lane",
         rating: 2.5,
         comment:"Service of your hotel was awesome we enjoyed your food 😊.... It was feeling that we are eating in our home ... Just loved your taste of food ❤️May u see more success in future ... Thank u"
     },
     {
         id: 4,
-        img:"",
-        name: "Dianne Russel",
+        img:SavannahNguyen,
+        name: "Savannah",
         rating: 3.5,
         comment:"Very nice experience.Nice ambience with nice food "
     },

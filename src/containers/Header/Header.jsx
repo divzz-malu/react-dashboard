@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
     Avatar,
     Badge,
     Box,
-    Container,
     IconButton,
     InputBase,
     useTheme,
@@ -12,12 +11,11 @@ import { useContext } from "react";
 import { ColorModeContext, tokens } from "../../theme";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import styles from "./header.module.scss";
-import MenuIcon from '@mui/icons-material/Menu';
-import Person from "../../assets/male-01.jpg"
+import MenuIcon from "@mui/icons-material/Menu";
+import Person from "../../assets/male-01.jpg";
 
 function Header(props) {
     const theme = useTheme();
@@ -49,26 +47,17 @@ function Header(props) {
                         borderRadius={1}
                         p={0.2}
                     >
-                        <InputBase
-                            // sx={{
-                            //     width: 200,
-                            //     "&:focus-within": {
-                            //         width: "100%",
-                            //     },
-                            //     transition: "width 1s",
-                            // }}
-                            sx={{ ml: 1, flex: 1 }}
-                            placeholder="Search"
-                            // sx={{ paddingLeft: "5px" }}
-                        />
-                        <IconButton type="button" >
+                        <IconButton type="button">
                             <SearchIcon />
                         </IconButton>
+                        <InputBase
+                            sx={{ flex: 1 }}
+                            placeholder="Search"
+                        />
                     </Box>
                 </Box>
                 <Box sx={{ flexShrink: 0 }}>
                     <IconButton
-
                         size="small"
                         className={`${styles["iconButton"]}`}
                         sx={{ backgroundColor: colors.primary[300] }}
@@ -80,10 +69,7 @@ function Header(props) {
                         className={`${styles["iconButton"]}`}
                         sx={{ backgroundColor: colors.primary[300] }}
                     >
-                        <Badge
-                            color="secondary"
-                            variant="dot"
-                        >
+                        <Badge color="secondary" variant="dot">
                             <NotificationsOutlinedIcon />
                         </Badge>
                     </IconButton>
@@ -95,10 +81,7 @@ function Header(props) {
                         <SettingsOutlinedIcon />
                     </IconButton>
                     <IconButton size="small">
-                        <Avatar
-                            sx={{ width: 28, height: 28 }}
-                            src={Person}
-                        />
+                        <Avatar sx={{ width: 30, height: 30 }} src={Person} />
                     </IconButton>
                 </Box>
             </Box>

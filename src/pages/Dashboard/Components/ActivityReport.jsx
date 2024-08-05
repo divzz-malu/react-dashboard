@@ -1,7 +1,6 @@
 import React from "react";
 import BarChart from "../../../components/Chart/Chart";
 import { Box, Chip, Typography } from "@mui/material";
-import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
 import DoneIcon from '@mui/icons-material/Done';
 
 

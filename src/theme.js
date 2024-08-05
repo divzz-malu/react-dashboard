@@ -9,7 +9,7 @@ export const tokens = (mode) => ({
               primary: {
                   100: "#d0d1d5",
                   200: "#27336A",
-                  300: "#727681",
+                  300: "rgba(255, 255, 255, 0.16)",
                   400: "#1F2A40",
                   500: "#141b2d",
                   600: "#101624",
@@ -167,7 +167,7 @@ export const themeSettings = (mode) => {
             fontSize: 12,
             h1: {
                 fontFamily: ["Roboto", "sans-serif"].join(","),
-                fontSize: 32,
+                fontSize: 30,
                 fontWeight:"700"
             },
             h2: {
@@ -208,7 +208,7 @@ export const themeSettings = (mode) => {
             },
             body2: {
                 fontFamily: ["Roboto", "sans-serif"].join(","),
-                fontSize: 8,
+                fontSize: 6,
             },
         },
     };

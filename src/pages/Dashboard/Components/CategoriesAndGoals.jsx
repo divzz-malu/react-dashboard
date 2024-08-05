@@ -1,6 +1,5 @@
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import React from "react";
-import AdsClickIcon from "@mui/icons-material/AdsClick";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import styles from "../dashboard.module.scss";
 import { tokens } from "../../../theme";

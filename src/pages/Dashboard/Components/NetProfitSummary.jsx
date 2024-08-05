@@ -35,7 +35,6 @@ function NetProfitSummary() {
                         <ArrowDropUpIcon color="success" />
                         <Typography
                             color={colors.success[500]}
-                            // textAlign={{ sm: "center", md: "left" }}
                         >
                             {ProfitData.growth}
                         </Typography>
@@ -52,10 +51,10 @@ function NetProfitSummary() {
                             trailColor: colors.secondary[200]
                           })}
                     />
-                </Box>
-                {/* <Typography variant="body2" textAlign="center" maxWidth="80px">
+                    <Typography variant="body2" textAlign="center" mt={1}>
                         *The values here has been rounded off.
-                    </Typography> */}
+                    </Typography>
+                </Box>
             </Stack>
         </div>
     );
