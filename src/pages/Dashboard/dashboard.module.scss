@@ -1,0 +1,44 @@
+.dashboard_section {
+    padding: 30px 20px;
+    height: calc(100vh - 80px);
+    overflow: auto;
+
+    .product_summary_section {
+        .icon_wrapper {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            /* justify-content: unset; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            position: relative;
+        }
+    }
+    .profit_summary_section {
+        height: 100%;
+        .progressbar {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .category_section{
+        .category_icon_wrapper{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            // background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+    }
+    .feedback_section{
+        text-align: left;
+    }
+    .order_table_section{
+        text-align: left;
+    }
+}
